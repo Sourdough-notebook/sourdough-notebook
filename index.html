@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#8a5a2b"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Sourdough"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+<title>Sourdough Notebook</title></head><body>
+<header><button id="back" class="icon hidden" aria-label="Back">‹</button><h1 id="title">🍞 Sourdough Notebook</h1><button id="menu" class="icon" aria-label="Backup">⋯</button></header>
+<div id="backupMenu" class="hidden"><b>💾 Backup</b><div class="muted" id="lastBk"></div><button class="btn wide" id="exportBtn">⬇️ Export backup</button><button class="btn alt wide" id="importBtn">⬆️ Import backup</button></div>
+<main id="app"></main>
+<div id="viewer" class="hidden"><img id="viewerImg" alt=""></div>
+<input type="file" id="importFile" accept="application/json" hidden>
+<script src="app.js"></script></body></html>
